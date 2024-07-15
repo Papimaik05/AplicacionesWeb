@@ -1,0 +1,21 @@
+.favoritos{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.productoFav{
+    display:inline;
+    background-color: rgb(116, 230, 116);
+    border: solid rgb(3, 98, 3);
+    margin: 20px;
+}
+
+.datosFav img{
+    width: 150px;
+    height: 150px; 
+}
+
+.productoFav .eliminarFav input{
+    text-align: center;
+    margin: auto;
+}

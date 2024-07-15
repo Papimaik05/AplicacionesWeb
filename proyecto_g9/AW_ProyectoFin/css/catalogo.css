@@ -1,0 +1,105 @@
+div.todoCat{
+	display:flex;
+	align-items: flex-start;
+}
+
+div.catalogo{
+	width: 2000px;
+	display:grid;
+	grid-template-columns: repeat(3, 1fr);
+	margin: 20px;
+}
+
+div.productoCatalogo{
+	display: inline;
+	max-width: 350px;
+	background-color: #ffffff;
+	margin: 10px;
+	border: solid #222;
+}
+
+div.productoCatalogo a{
+	text-decoration: none;
+	color: black;
+}
+
+div.productoCatalogo div.fav{
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.estrella{
+	color: gold;
+	font-size: 13px;
+}
+
+div.listaCat{
+	place-items: center;
+}
+
+
+div.listaCat ul{
+	display: inline;
+	/* grid-template-columns: repeat(7, 1fr); */
+	max-width: 1200px;
+	overflow:initial;
+	align-items: center;
+	height: fit-content;
+	padding: 0 10px;
+}
+
+div.listaCat ul li {
+	list-style: none;
+	width: 100px;
+	height: 20px;
+	padding: 12px 16px;
+	margin: 0 8px;
+	margin-bottom: 5px;
+	background-color: #4CAF50;
+	cursor: pointer;
+}
+
+div.listaCat ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+}
+
+div.listaCat ul li a:hover{
+	color: red;
+}
+
+div.listaCat ul li:hover{
+	background-color: greenyellow;
+}
+
+div.productoCatalogo div.fav input{
+	text-align: center;
+	margin: auto;
+}
+
+
+div.productoCatalogo img{
+	width: 200px;
+	height: 200px;
+}
+
+div.formOferta{
+	background-color: rgba(236, 215, 215, 0.661);
+	border: solid #222;
+}
+
+div.formOferta h4 {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+div.formOferta .precioOf {
+	font-weight: bold;
+}
+
+div.formOferta input{
+	text-align: center;
+	margin: auto;
+}

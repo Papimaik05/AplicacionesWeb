@@ -1,0 +1,70 @@
+.pedido .loc{
+    text-align: left;
+    border-bottom: solid black;
+}
+
+.imagenPed img{
+    width: 90px;
+    height: 90px;
+}
+
+.pedido{
+    background-color: azure;
+    margin-bottom: 5px;
+}
+
+.precioTotal {
+    text-align: right;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.precioTotal .direccion{
+    font-size: 15px;
+}
+
+.prodPedido{
+    display: flex;
+    align-items: center;
+}
+
+.datos{
+    margin-left: 100px;
+}
+
+.devolverProd{
+    margin-left: 60px;
+}
+
+.valoracion {
+    margin-left: 160px;
+}
+
+.estrellas form{
+    width: 330px;
+    height: 50px;
+}
+
+.valorar input[type = "radio"]{
+    display: none;
+}
+
+.estrellas form{
+    margin: 0;
+}
+
+.estrellas form label{
+    font-size: 40px;
+    float: right;
+    color: grey;
+}
+
+.valorar{
+    /* direction: rtl; */
+    unicode-bidi: bidi-override;
+}
+
+label:hover, label:hover ~ label, input:checked ~ label {
+    color: gold;
+}

@@ -1,0 +1,35 @@
+#formReg{
+	padding: 20px;
+}
+
+div.formReg{
+	align-items: center;
+}
+
+div.formReg h3{
+	font-size: 20px;
+}
+
+div.formReg input{
+	margin: 5px;
+}
+
+div.formReg p{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+div.formReg div input{
+	display: inline;
+	height: 20px;
+}
+
+
+div.formReg div button{
+	display: inline;
+}
+
+div.formReg div p{
+	color: red;
+	font-size: 15px;
+}
