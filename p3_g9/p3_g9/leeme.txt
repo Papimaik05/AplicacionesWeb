@@ -1,8 +1,0 @@
-
-Funcionalidades implementadas: 
-
-- Login/registrar 
-- Carrito 
-- Ventas
-- Valoraciones
-- Devoluciones

@@ -1,1 +1,0 @@
-En esta práctica están implementadas la funcionalidad de gestión de ventas y la funcionalidad de gestión de evaluaciones/valoraciones, además de la gestión de usuario obligatoria.
